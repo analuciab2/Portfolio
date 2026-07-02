@@ -173,14 +173,14 @@ var PORTFOLIO_DATA = {
     PROYECTOS_VIDEO: [
       {
         id: "proj-1",
-        titulo: "Mentalista",
-        cliente: "Pingüinos Marinela",
+        titulo: "Crece Mujer",
+        cliente: "Caja Piura",
         tipo: "Publicidad",
         rol: "Productora Ejecutiva",
-        año: "2016",
-        videoUrl: "https://www.youtube.com/embed/O4saBGUPG-o",
+        año: "2026",
+        videoUrl: "https://www.youtube.com/embed/gZGDXmbE0Kg",
         thumbnail: null,
-        descripcion: "Campaña \"Dale REC\" para Pingüinos Marinela."
+        descripcion: "Campaña por el Día de la Mujer para Caja Piura."
       },
       {
         id: "proj-2",
