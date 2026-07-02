@@ -208,9 +208,10 @@ body {
 }
 
 .nav__logo .logo-wordmark {
-  display: none;
+  display: block;
   line-height: 1.1;
   white-space: nowrap;
+  font-size: clamp(var(--text-base), 1.6vw, var(--text-xl));
 }
 .nav__logo .logo-wordmark span {
   font-family: var(--font-script);
@@ -1360,7 +1361,6 @@ body {
   .nav__hamburger { display: flex; }
 
   .nav__logo .logo-wordmark {
-    display: block;
     font-size: var(--text-lg);
   }
 
