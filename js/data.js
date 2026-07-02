@@ -13,12 +13,11 @@ var PORTFOLIO_DATA = {
       rol: "Productora Ejecutiva & Coordinadora Bilingüe",
       tagline: "Asistente Ejedcutiva y Coordinadora de Proyectos",
       bio: [
-        "Más de <strong>15 años</strong> gestionando proyectos complejos para marcas líderes, coordinando equipos multidisciplinarios, presupuestos, cronogramas y proveedores para asegurar una ejecución eficiente y entregas a tiempo.",
-        "He liderado como <strong>Productora Ejecutiva</strong> campañas para marcas como Marca Perú, Movistar, BCP, Scotiabank, Mapfre, Yanbal, Hyundai, LG y Lima Airport Partners. Mi trabajo combina visión estratégica, coordinación de equipos y cumplimiento de objetivos con precisión y criterio creativo."
+        "Durante más de 15 años he coordinado proyectos publicitarios y audiovisuales, acompañando cada etapa, desde el brief de marketing hasta la ejecución y entrega de campañas. Esa experiencia me permitió desarrollar habilidades de organización, seguimiento, coordinación de equipos y gestión de múltiples tareas, que hoy quiero aplicar en roles remotos de Executive Assistant y Virtual Assistant."
       ],
       stats: [
         { numero: "15+", label: "Años de experiencia" },
-        { numero: "10+", label: "Marcas de primer nivel" },
+        { numero: "20+", label: "Clientes y marcas" },
         { numero: "C1", label: "Inglés certificado EF SET" },
         { numero: "2", label: "Idiomas de trabajo" }
       ],
@@ -82,7 +81,7 @@ var PORTFOLIO_DATA = {
         fechaInicio: "May 2024",
         fechaFin: "Dic 2024",
         duracion: "8 meses",
-        tipo: ["publicidad", "corporativo"],
+        tipo: ["publicidad",],
         logros: [
           "Venta de servicios audiovisuales: streaming y coberturas en vivo, CCTV para eventos, pantallas LED, alquiler de equipos, estudio de TV y sala Podcast."
         ]
@@ -95,9 +94,9 @@ var PORTFOLIO_DATA = {
         fechaInicio: "Abr 2019",
         fechaFin: "Abr 2024",
         duracion: "5 años",
-        tipo: ["publicidad", "corporativo", "documental"],
+        tipo: ["publicidad",],
         logros: [
-          "Productora audiovisual independiente: gestión de proyectos de cine y fotografía publicitarios para clientes del sector privado y público."
+          "Productora audiovisual independiente: gestión de proyectos audiovisuales y fotográficos para clientes del sector privado y público."
         ]
       },
       {
@@ -108,7 +107,7 @@ var PORTFOLIO_DATA = {
         fechaInicio: "Sep 2015",
         fechaFin: "Mar 2019",
         duracion: "3 años 7 meses",
-        tipo: ["publicidad"],
+        tipo: ["publicidad",],
         logros: [
           "Producción general de campañas audiovisuales para ATL, digital y medios impresos: brief, presupuesto, cronograma, equipo, proveedores y supervisión de rodaje.",
           "Ventas y relación con clientes: búsqueda de nuevos clientes y gestión de la relación con cuentas activas."
@@ -138,7 +137,7 @@ var PORTFOLIO_DATA = {
         duracion: "11 meses",
         tipo: ["publicidad"],
         logros: [
-          "Producción para catálogos de Hipermercados Tottus.",
+          "Producción fotográfica para catálogos de Hipermercados Tottus.",
           "Supervisión de preproducción y sesiones fotográficas en estudio y locación."
         ]
       },
@@ -164,7 +163,7 @@ var PORTFOLIO_DATA = {
         fechaInicio: "Oct 2009",
         fechaFin: "Jun 2010",
         duracion: "9 meses",
-        tipo: ["corporativo"],
+        tipo: ["comunicacionsocial"],
         logros: [
           "Asistente de Diseño y Monitoreo en proyecto de Comunicación en Salud para ALICORP y MINSA.",
           "Producción y coordinación de talleres de capacitación para periodistas radiales en el interior del país."
@@ -174,14 +173,14 @@ var PORTFOLIO_DATA = {
     PROYECTOS_VIDEO: [
       {
         id: "proj-1",
-        titulo: "Marca Perú",
-        cliente: "PromPerú",
+        titulo: "Mentalista",
+        cliente: "Pingüinos Marinela",
         tipo: "Publicidad",
         rol: "Productora Ejecutiva",
-        año: "2022",
-        videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        año: "2016",
+        videoUrl: "https://www.youtube.com/embed/O4saBGUPG-o",
         thumbnail: null,
-        descripcion: "Campaña institucional de marca país."
+        descripcion: "Campaña \"Dale REC\" para Pingüinos Marinela."
       },
       {
         id: "proj-2",
@@ -611,22 +610,21 @@ var UI_TRANSLATIONS = {
     nav_skills: "Habilidades",
     nav_contact: "Contacto",
     hero_eyebrow: "Productora Ejecutiva · Lima, Perú",
-    hero_role: "Productora Audiovisual",
-    hero_tagline: "Más de 15 años liderando producción audiovisual para Marca Perú, Movistar, BCP, Scotiabank, Yanbal, Hyundai, LG y más. Del brief a la entrega final.",
+    hero_role: "Productora Audiovisual | Asistente Ejecutiva",
+    hero_tagline: "Más de <strong>15 años</strong> coordinando campañas publicitarias y proyectos audiovisuales de principio a fin, administrando presupuestos, cronogramas, proveedores y equipos multidisciplinarios, con un enfoque en la organización, el seguimiento continuo y el cumplimiento de plazos.",
     hero_btn_portfolio: "Ver Portafolio",
     hero_btn_cv: "Ver CV",
     about_label: "Sobre mí",
-    about_title: "Producción como<br>oficio <span class=\"font-script accent-circle\">y</span> visión.",
+    about_title: "Organización, coordinación y ejecución",
     exp_label: "Experiencia",
     exp_title: "Trayectoria",
     filter_all: "Todos",
     filter_publicidad: "Publicidad",
-    filter_documental: "Documental",
     filter_corporativo: "Corporativo",
-    filter_musical: "Musical",
+    filter_comunicacionsocial: "Comunicación Social",
     portfolio_label: "Portafolio",
     portfolio_title: "Proyectos",
-    portfolio_subtitle: "Una selección de trabajos en publicidad, documental, corporativo y más. Haz click en cualquier proyecto para ver el video.",
+    portfolio_subtitle: "Una selección de proyectos en los que he participado como Productora Ejecutiva y Coordinadora de Producción. Haz clic en cualquier proyecto para ver el video.",
     skills_label: "Habilidades",
     skills_title: "Herramientas<br><span class=\"font-script accent-circle\">&</span> Especialidades",
     skills_languages: "Idiomas",
@@ -649,9 +647,7 @@ var UI_TRANSLATIONS = {
 
     // Mapeos de tags internos para visualización en las tarjetas de experiencia
     tag_publicidad: "Publicidad",
-    tag_documental: "Documental",
-    tag_corporativo: "Corporativo",
-    tag_musical: "Musical",
+    tag_comunicacion_social: "Comunicación Social",
     tag_interpretacion: "Interpretación"
   },
   en: {
