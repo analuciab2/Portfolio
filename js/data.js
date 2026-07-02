@@ -11,16 +11,16 @@ var PORTFOLIO_DATA = {
     PERSONA: {
       nombre: "Ana Lucía Beoutis",
       rol: "Productora Ejecutiva & Coordinadora Bilingüe",
-      tagline: "Del guion a la pantalla — cuento historias que mueven.",
+      tagline: "Asistente Ejedcutiva y Coordinadora de Proyectos",
       bio: [
-        "Profesional en comunicación y producción audiovisual con más de <strong>15 años de experiencia</strong> en la gestión integral de proyectos de contenido publicitario, corporativo e institucional.",
+        "Más de <strong>15 años</strong> gestionando proyectos complejos para marcas líderes, coordinando equipos multidisciplinarios, presupuestos, cronogramas y proveedores para asegurar una ejecución eficiente y entregas a tiempo.",
         "He liderado como <strong>Productora Ejecutiva</strong> campañas para marcas como Marca Perú, Movistar, BCP, Scotiabank, Mapfre, Yanbal, Hyundai, LG y Lima Airport Partners. Mi trabajo combina visión estratégica, coordinación de equipos y cumplimiento de objetivos con precisión y criterio creativo."
       ],
       stats: [
         { numero: "15+", label: "Años de experiencia" },
         { numero: "10+", label: "Marcas de primer nivel" },
-        { numero: "C1",  label: "Inglés certificado EF SET" },
-        { numero: "2",   label: "Idiomas de trabajo" }
+        { numero: "C1", label: "Inglés certificado EF SET" },
+        { numero: "2", label: "Idiomas de trabajo" }
       ],
       contacto: {
         email: "analuciab2@gmail.com",
@@ -278,7 +278,7 @@ var PORTFOLIO_DATA = {
     ],
     IDIOMAS: [
       { idioma: "Español", nivel: "Nativo" },
-      { idioma: "Inglés",  nivel: "C1 Avanzado (EF SET 69/100)" }
+      { idioma: "Inglés", nivel: "C1 Avanzado (EF SET 69/100)" }
     ],
     EDUCACION: [
       {
@@ -316,8 +316,8 @@ var PORTFOLIO_DATA = {
       stats: [
         { numero: "15+", label: "Years of experience" },
         { numero: "10+", label: "Top-tier brands" },
-        { numero: "C1",  label: "EF SET Certified English" },
-        { numero: "2",   label: "Working languages" }
+        { numero: "C1", label: "EF SET Certified English" },
+        { numero: "2", label: "Working languages" }
       ],
       contacto: {
         email: "analuciab2@gmail.com",
@@ -575,7 +575,7 @@ var PORTFOLIO_DATA = {
     ],
     IDIOMAS: [
       { idioma: "Spanish", nivel: "Native" },
-      { idioma: "English",  nivel: "C1 Advanced (EF SET 69/100)" }
+      { idioma: "English", nivel: "C1 Advanced (EF SET 69/100)" }
     ],
     EDUCACION: [
       {
@@ -646,7 +646,7 @@ var UI_TRANSLATIONS = {
     footer_text: "Ana Lucía Beoutis. Lima, Perú.",
     modal_aria: "Reproductor de video",
     modal_close_aria: "Cerrar video",
-    
+
     // Mapeos de tags internos para visualización en las tarjetas de experiencia
     tag_publicidad: "Publicidad",
     tag_documental: "Documental",
@@ -696,7 +696,7 @@ var UI_TRANSLATIONS = {
     footer_text: "Ana Lucía Beoutis. Lima, Peru.",
     modal_aria: "Video player",
     modal_close_aria: "Close video",
-    
+
     // Mapeos de tags internos para visualización en las tarjetas de experiencia
     tag_publicidad: "Commercial",
     tag_documental: "Documentary",
