@@ -272,7 +272,7 @@ var PORTFOLIO_DATA = {
           "ChatGPT",
           "Claude",
           "Meta Ads (básico)",
-          "Notion"
+          "Notion (básico)"
         ]
       }
     ],
