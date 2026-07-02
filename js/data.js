@@ -243,35 +243,36 @@ var PORTFOLIO_DATA = {
         categoria: "Producción Audiovisual",
         items: [
           "Producción ejecutiva",
-          "Producción de campo",
           "Coordinación de producción",
           "Gestión de presupuestos",
-          "Planificación y desglose de guion",
-          "Casting, locaciones y proveedores",
-          "Supervisión de preproducción y postproducción"
+          "Planificación y cronogramas",
+          "Coordinación de proveedores",
+          "Coordinación de locaciones y casting",
+          "Supervisión de pre y postproducción"
         ]
       },
       {
         categoria: "Comunicación & Gestión",
         items: [
-          "Gestión de proyectos",
-          "Coordinación de equipos multidisciplinarios",
-          "Relación con clientes y agencias",
-          "Comunicación bilingüe ES/EN (C1)",
-          "Interpretación médica OPI & VRI",
-          "Terminología médica",
+          "Coordinación de proyectos",
+          "Gestión de agendas y prioridades",
+          "Seguimiento de tareas",
+          "Coordinación de equipos",
+          "Relación con clientes y proveedores",
+          "Comunicación bilingüe ES/EN",
           "Microsoft Office / Google Workspace"
         ]
       },
       {
-        categoria: "Tipos de Proyecto",
+        categoria: "Herramientas Digitales",
         items: [
-          "Publicidad ATL, digital e impresa",
-          "Contenido corporativo e institucional",
-          "Fotografía publicitaria",
-          "Streaming y coberturas en vivo",
-          "Catálogos de producto",
-          "Talleres y comunicación en salud"
+          "Google Workspace",
+          "Microsoft Office",
+          "Canva",
+          "ChatGPT",
+          "Claude",
+          "Meta Ads (básico)",
+          "Notion"
         ]
       }
     ],
@@ -631,8 +632,8 @@ var UI_TRANSLATIONS = {
     skills_education: "Educación",
     skills_certifications: "Certificaciones",
     annex_label: "Anexo",
-    annex_title: "Intérprete <span class=\"accent\">&</span> Actriz de Voz",
-    annex_subtitle: "Además de su carrera en producción audiovisual, Ana Lucía cuenta con formación y experiencia como intérprete, aportando una mirada integral al proceso creativo desde la cámara.",
+    annex_title: "Intérprete Médica",
+    annex_subtitle: "Además de su carrera en producción audiovisual, Ana Lucía cuenta con experiencia como intérprete médica para el sector salud de los Estados Unidos.",
     annex_group_title: "Competencias como intérprete",
     annex_btn_cv: "Descargar CV de Intérprete",
     annex_btn_cv_aria: "Descargar CV de intérprete en PDF",
