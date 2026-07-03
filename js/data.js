@@ -195,47 +195,47 @@ var PORTFOLIO_DATA = {
       },
       {
         id: "proj-3",
-        titulo: "BCP",
-        cliente: "Banco de Crédito del Perú",
-        tipo: "Publicidad",
-        rol: "Productora Ejecutiva",
-        año: "2020",
-        videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-        thumbnail: "assets/img/thumbnails/unique_labial.jpg",
-        descripcion: "Pieza audiovisual institucional."
-      },
-      {
-        id: "proj-4",
-        titulo: "Yanbal",
+        titulo: "Labial Cushion",
         cliente: "Yanbal International",
         tipo: "Publicidad",
         rol: "Productora Ejecutiva",
-        año: "2022",
-        videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        año: "2021",
+        videoUrl: "https://www.youtube.com/embed/hZR50Qc7Yic",
+        thumbnail: "assets/img/thumbnails/unique_labial.jpg",
+        descripcion: "Campaña de beauty. Animación 3D."
+      },
+      {
+        id: "proj-4",
+        titulo: "Amigos | Y Tú Qué Planes",
+        cliente: "Marca Perú",
+        tipo: "Publicidad",
+        rol: "Productora Ejecutiva",
+        año: "2019",
+        videoUrl: "https://www.youtube.com/embed/9KGMGhNS8sg",
         thumbnail: "assets/img/thumbnails/y_tu_que_planes.jpg",
-        descripcion: "Campaña de producto para medios digitales."
+        descripcion: "Campaña de turismo interno."
       },
       {
         id: "proj-5",
-        titulo: "Lima Airport Partners",
-        cliente: "LAP",
-        tipo: "Corporativo",
+        titulo: "Hit",
+        cliente: "Pizza Hut",
+        tipo: "Publicidad",
         rol: "Productora Ejecutiva",
-        año: "2023",
-        videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        año: "2017",
+        videoUrl: "https://www.youtube.com/embed/iYhUZ_oUGu8",
         thumbnail: "assets/img/thumbnails/pizza_hut_hit.jpg",
-        descripcion: "Campaña de producto para medios digitales."
+        descripcion: "Campaña promocional."
       },
       {
         id: "proj-6",
-        titulo: "Hyundai / LG",
-        cliente: "Hyundai · LG",
-        tipo: "Publicidad",
+        titulo: "Mentalista",
+        cliente: "Pinguinos Marinela",
+        tipo: "Contenido",
         rol: "Productora Ejecutiva",
-        año: "2021",
-        videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        año: "2015",
+        videoUrl: "https://www.youtube.com/embed/O4saBGUPG-o",
         thumbnail: "assets/img/thumbnails/pinguinos_marinela.jpg",
-        descripcion: "Piezas publicitarias para marcas internacionales."
+        descripcion: "Contenido para campaña promocional en redes sociales"
       }
     ],
     HABILIDADES: [
