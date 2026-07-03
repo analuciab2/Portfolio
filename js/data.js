@@ -184,14 +184,14 @@ var PORTFOLIO_DATA = {
       },
       {
         id: "proj-2",
-        titulo: "Campaña Movistar",
-        cliente: "Movistar Perú",
-        tipo: "Publicidad",
+        titulo: "Bullying",
+        cliente: "Jockey Plaza",
+        tipo: "Contenido",
         rol: "Productora Ejecutiva",
-        año: "2021",
-        videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        año: "2026",
+        videoUrl: "https://www.youtube.com/embed/3H6yBtLTuAs",
         thumbnail: null,
-        descripcion: "Campaña publicitaria para medios ATL y digital."
+        descripcion: "Campaña contra el bullying para el Jockey Plaza."
       },
       {
         id: "proj-3",
