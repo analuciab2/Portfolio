@@ -179,7 +179,7 @@ var PORTFOLIO_DATA = {
         rol: "Productora Ejecutiva",
         año: "2026",
         videoUrl: "https://www.youtube.com/embed/gZGDXmbE0Kg",
-        thumbnail: null,
+        thumbnail: "assets/img/thumbnails/caja_piura_crece_mujer.jpg",
         descripcion: "Campaña por el Día de la Mujer para Caja Piura."
       },
       {
@@ -190,7 +190,7 @@ var PORTFOLIO_DATA = {
         rol: "Productora Ejecutiva",
         año: "2026",
         videoUrl: "https://www.youtube.com/embed/3H6yBtLTuAs",
-        thumbnail: null,
+        thumbnail: "assets/img/thumbnails/jockey_plaza_bullying.jpg",
         descripcion: "Campaña contra el bullying para el Jockey Plaza."
       },
       {
@@ -201,7 +201,7 @@ var PORTFOLIO_DATA = {
         rol: "Productora Ejecutiva",
         año: "2020",
         videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-        thumbnail: null,
+        thumbnail: "assets/img/thumbnails/unique_labial.jpg",
         descripcion: "Pieza audiovisual institucional."
       },
       {
@@ -212,7 +212,7 @@ var PORTFOLIO_DATA = {
         rol: "Productora Ejecutiva",
         año: "2022",
         videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-        thumbnail: null,
+        thumbnail: "assets/img/thumbnails/y_tu_que_planes.jpg",
         descripcion: "Campaña de producto para medios digitales."
       },
       {
@@ -223,8 +223,8 @@ var PORTFOLIO_DATA = {
         rol: "Productora Ejecutiva",
         año: "2023",
         videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-        thumbnail: null,
-        descripcion: "Video corporativo institucional."
+        thumbnail: "assets/img/thumbnails/pizza_hut_hit.jpg",
+        descripcion: "Campaña de producto para medios digitales."
       },
       {
         id: "proj-6",
@@ -234,7 +234,7 @@ var PORTFOLIO_DATA = {
         rol: "Productora Ejecutiva",
         año: "2021",
         videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-        thumbnail: null,
+        thumbnail: "assets/img/thumbnails/pinguinos_marinela.jpg",
         descripcion: "Piezas publicitarias para marcas internacionales."
       }
     ],
