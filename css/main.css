@@ -381,34 +381,6 @@ body {
       var(--color-bg) 100%);
 }
 
-/* ── Hero photo full bleed with left fade ─────────────────────────── */
-.hero__photo-wrapper {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 1;
-  overflow: hidden;
-}
-
-.hero__photo {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: right center;
-  opacity: 0.9;
-}
-
-.hero__photo-wrapper::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  /* Fade from left to dark background */
-  background: linear-gradient(to left, transparent 40%, rgba(40, 40, 40, 0.3) 55%, rgba(40, 40, 40, 0.6) 70%, rgba(40, 40, 40, 0.85) 85%, rgba(40, 40, 40, 0.95) 100%);
-  pointer-events: none;
-}
-
 .hero__bg-img,
 .hero__bg-video {
   width: 100%;
@@ -420,16 +392,30 @@ body {
 
 .hero__content {
   position: relative;
-  z-index: 2;
-  padding: var(--space-8);
+  z-index: 1;
+  padding: var(--section-padding-x);
   padding-bottom: clamp(4rem, 8vw, 7rem);
-  max-width: 650px;
-  background: rgba(40, 40, 40, 0.75);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border-radius: var(--radius-card);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  max-width: var(--container-max);
+  margin-inline: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+}
+
+/* ── Hero profile photo ───────────────────────────────────── */
+.hero__photo-container {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+}
+
+.hero__profile-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .hero__eyebrow {
@@ -439,7 +425,7 @@ body {
   letter-spacing: var(--ls-wider);
   text-transform: uppercase;
   color: var(--color-teal);
-  margin-bottom: var(--space-4);
+  margin-bottom: 0;
   display: flex;
   align-items: center;
   gap: var(--space-3);
@@ -456,16 +442,16 @@ body {
 
 .hero__name {
   font-family: var(--font-primary);
-  font-size: var(--text-hero);
+  font-size: clamp(2rem, 5vw, 3.5rem);
   font-weight: var(--fw-black);
   line-height: var(--lh-tight);
-  letter-spacing: -0.04em;
+  letter-spacing: -0.02em;
   color: var(--color-text-primary);
 }
 
 /* Resalta "Beoutis" con gradiente de marca */
 .hero__name .name-highlight {
-  display: block;
+  display: inline;
   background: var(--gradient-1);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -474,20 +460,20 @@ body {
 
 .hero__role {
   font-family: var(--font-script);
-  font-size: clamp(1.8rem, 4vw, 3rem);
+  font-size: clamp(1.2rem, 3vw, 2rem);
   font-weight: 400;
   color: var(--color-teal);
-  margin-top: var(--space-3);
+  margin-top: var(--space-2);
   opacity: 0.95;
 }
 
 .hero__tagline {
-  font-size: var(--text-lg);
+  font-size: var(--text-base);
   font-weight: var(--fw-regular);
   color: var(--color-text-muted);
   line-height: var(--lh-relaxed);
   max-width: 50ch;
-  margin-top: var(--space-6);
+  margin-top: 0;
 }
 
 .hero__actions {
@@ -1422,20 +1408,24 @@ body {
   .nav { padding-top: var(--space-4); }
   .hero__content { padding-top: var(--space-20); }
 
-  /* Hero content box on mobile */
-  .hero__content {
-    max-width: 100%;
-    margin: var(--space-4);
-    padding: var(--space-6);
+  /* Hero profile photo on mobile */
+  .hero__photo-container {
+    width: 100px;
+    height: 100px;
+  }
+
+  /* Hero name on mobile */
+  .hero__name {
+    font-size: clamp(1.8rem, 8vw, 2.5rem);
+  }
+
+  /* Hero role on mobile */
+  .hero__role {
+    font-size: clamp(1rem, 4vw, 1.5rem);
   }
 
   /* Add line break for role text on mobile */
   .hero__role { white-space: pre-line; }
-
-  /* Hero photo on mobile - full height with right crop */
-  .hero__photo-wrapper {
-    width: 100%;
-  }
 
   /* Make hamburger menu visible on mobile */
   .nav__hamburger {
