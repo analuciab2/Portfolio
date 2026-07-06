@@ -173,6 +173,72 @@ var PORTFOLIO_DATA = {
     PROYECTOS_VIDEO: [
       {
         id: "proj-1",
+        titulo: "Hechos Para Más",
+        cliente: "Hyundai",
+        tipo: "Publicidad",
+        rol: "Productora Ejecutiva",
+        año: "2026",
+        videoUrl: "https://www.youtube.com/embed/YBPM0Y5PzGM",
+        thumbnail: "assets/img/thumbnails/hyundai_hechos_para_mas.png",
+        descripcion: "Campaña para Camiones Hyundai."
+      },
+      {
+        id: "proj-2",
+        titulo: "Feria Educativa Fest 26",
+        cliente: "Beca Cometa Intercorp",
+        tipo: "Publicidad",
+        rol: "Productora Ejecutiva",
+        año: "2026",
+        videoUrl: "https://www.youtube.com/embed/PWliXy8OT9s",
+        thumbnail: "assets/img/thumbnails/beca_cometa.png",
+        descripcion: "Publicidad de Feria Educativa Beca Cometa de Intercorp"
+      },
+      {
+        id: "proj-3",
+        titulo: "Accesorios Toyota Rav4 Hybrid",
+        cliente: "Toyota",
+        tipo: "Publicidad",
+        rol: "Productora Ejecutiva",
+        año: "2026",
+        videoUrl: "https://www.youtube.com/embed/gZGDXmbE0Kg",
+        thumbnail: "assets/img/thumbnails/toyota_rav4_hybrid.png",
+        descripcion: "Contenido publicitario para Toyota."
+      },
+      {
+        id: "proj-4",
+        titulo: "Bienestars",
+        cliente: "APF Prima",
+        tipo: "Publicidad",
+        rol: "Productora Ejecutiva",
+        año: "2026",
+        videoUrl: "https://www.youtube.com/embed/1X6SCYGe5WY",
+        thumbnail: "assets/img/thumbnails/afp_prima_bienestars.png",
+        descripcion: "Campaña de incentivos de APF Prima."
+      },
+      {
+        id: "proj-5",
+        titulo: "Añejo",
+        cliente: "Arroz Costeño Extra Añejo",
+        tipo: "Publicidad",
+        rol: "Productora Ejecutiva",
+        año: "2026",
+        videoUrl: "https://www.youtube.com/embed/gUsCZ2Djt46o",
+        thumbnail: "assets/img/thumbnails/arroz_costeno_extra_anejo.png",
+        descripcion: "Campaña de relanzamiento de Arroz Costeño Extra Añejo."
+      },
+      {
+        id: "proj-6",
+        titulo: "Promo Fiestas Patrias",
+        cliente: "Field",
+        tipo: "Publicidad",
+        rol: "Productora Ejecutiva",
+        año: "2026",
+        videoUrl: "https://www.youtube.com/embed/Z_qz5bBoqyQ",
+        thumbnail: "assets/img/thumbnails/field_fiestas_patrias_2026.png",
+        descripcion: "Campaña promocional por Fiestas Patrias para galletas Field."
+      },
+      {
+        id: "proj-7",
         titulo: "Crece Mujer",
         cliente: "Caja Piura",
         tipo: "Publicidad",
@@ -183,7 +249,7 @@ var PORTFOLIO_DATA = {
         descripcion: "Campaña por el Día de la Mujer para Caja Piura."
       },
       {
-        id: "proj-2",
+        id: "proj-8",
         titulo: "Bullying",
         cliente: "Jockey Plaza",
         tipo: "Contenido",
@@ -194,7 +260,7 @@ var PORTFOLIO_DATA = {
         descripcion: "Campaña contra el bullying para el Jockey Plaza."
       },
       {
-        id: "proj-3",
+        id: "proj-9",
         titulo: "Labial Cushion",
         cliente: "Yanbal International",
         tipo: "Publicidad",
@@ -205,7 +271,7 @@ var PORTFOLIO_DATA = {
         descripcion: "Campaña de beauty. Animación 3D."
       },
       {
-        id: "proj-4",
+        id: "proj-10",
         titulo: "Amigos | Y Tú Qué Planes",
         cliente: "Marca Perú",
         tipo: "Publicidad",
@@ -216,7 +282,7 @@ var PORTFOLIO_DATA = {
         descripcion: "Campaña de turismo interno."
       },
       {
-        id: "proj-5",
+        id: "proj-11",
         titulo: "Hit",
         cliente: "Pizza Hut",
         tipo: "Publicidad",
@@ -227,7 +293,7 @@ var PORTFOLIO_DATA = {
         descripcion: "Campaña promocional."
       },
       {
-        id: "proj-6",
+        id: "proj-12",
         titulo: "Mentalista",
         cliente: "Pingüinos Marinela",
         tipo: "Contenido",
@@ -468,8 +534,75 @@ var PORTFOLIO_DATA = {
       }
     ],
     PROYECTOS_VIDEO: [
+      
       {
         id: "proj-1",
+        titulo: "Hechos Para Más",
+        cliente: "Hyundai",
+        tipo: "Commercial",
+        rol: "Productora Ejecutiva",
+        año: "2026",
+        videoUrl: "https://www.youtube.com/embed/YBPM0Y5PzGM",
+        thumbnail: "assets/img/thumbnails/hyundai_hechos_para_mas.png",
+        descripcion: "Ad campaign for Hyundai trucks and buses."
+      },
+      {
+        id: "proj-2",
+        titulo: "Feria Educativa Fest 26",
+        cliente: "Beca Cometa Intercorp",
+        tipo: "Commercial",
+        rol: "Productora Ejecutiva",
+        año: "2026",
+        videoUrl: "https://www.youtube.com/embed/PWliXy8OT9s",
+        thumbnail: "assets/img/thumbnails/beca_cometa.png",
+        descripcion: "Ad for Beca Cometa, Intercorp's educational fair."
+      },
+      {
+        id: "proj-3",
+        titulo: "Accesorios Toyota Rav4 Hybrid",
+        cliente: "Toyota",
+        tipo: "Content",
+        rol: "Productora Ejecutiva",
+        año: "2026",
+        videoUrl: "https://www.youtube.com/embed/gZGDXmbE0Kg",
+        thumbnail: "assets/img/thumbnails/toyota_rav4_hybrid.png",
+        descripcion: "Branded Content for Toyota Rav4 Hybrid."
+      },
+      {
+        id: "proj-4",
+        titulo: "Bienestars",
+        cliente: "APF Prima",
+        tipo: "Commercial",
+        rol: "Productora Ejecutiva",
+        año: "2026",
+        videoUrl: "https://www.youtube.com/embed/1X6SCYGe5WY",
+        thumbnail: "assets/img/thumbnails/afp_prima_bienestars.png",
+        descripcion: "APF Prima's incentive campaign."
+      },
+      {
+        id: "proj-5",
+        titulo: "Añejo",
+        cliente: "Arroz Costeño Extra Añejo",
+        tipo: "Commercial",
+        rol: "Productora Ejecutiva",
+        año: "2026",
+        videoUrl: "https://www.youtube.com/embed/gUsCZ2Djt46o",
+        thumbnail: "assets/img/thumbnails/arroz_costeno_extra_anejo.png",
+        descripcion: "Relaunch campagin for Arroz Costeño Extra Añejo."
+      },
+      {
+        id: "proj-6",
+        titulo: "Promo Fiestas Patrias",
+        cliente: "Field",
+        tipo: "Commercial",
+        rol: "Productora Ejecutiva",
+        año: "2026",
+        videoUrl: "https://www.youtube.com/embed/Z_qz5bBoqyQ",
+        thumbnail: "assets/img/thumbnails/field_fiestas_patrias_2026.png",
+        descripcion: "Field's Promotional campagin for National Day celebration."
+      },
+      {
+        id: "proj-7",
         titulo: "Crece Mujer",
         cliente: "Caja Piura",
         tipo: "Commercial",
@@ -480,7 +613,7 @@ var PORTFOLIO_DATA = {
         descripcion: "Wome's Day ad campaign for Caja Piura."
       },
       {
-        id: "proj-2",
+        id: "proj-8",
         titulo: "Bullying",
         cliente: "Jockey Plaza",
         tipo: "Content",
@@ -491,7 +624,7 @@ var PORTFOLIO_DATA = {
         descripcion: "Campaign against bullying for Jockey Plaza."
       },
       {
-        id: "proj-3",
+        id: "proj-9",
         titulo: "Cushion Lipstick",
         cliente: "Yanbal International",
         tipo: "Commercial",
@@ -502,7 +635,7 @@ var PORTFOLIO_DATA = {
         descripcion: "Beauty advertisement. 3D animation."
       },
       {
-        id: "proj-4",
+        id: "proj-10",
         titulo: "Amigos | Y Tú Qué Planes",
         cliente: "Peru Country Brand",
         tipo: "Commercial",
@@ -513,7 +646,7 @@ var PORTFOLIO_DATA = {
         descripcion: "Domestic Tourism Advertising Campaign."
       },
       {
-        id: "proj-5",
+        id: "proj-11",
         titulo: "Hit",
         cliente: "Pizza Hut",
         tipo: "Commercial",
@@ -524,7 +657,7 @@ var PORTFOLIO_DATA = {
         descripcion: "Promotional campaign."
       },
       {
-        id: "proj-6",
+        id: "proj-12",
         titulo: "The Mentalist",
         cliente: "Pingüinos Marinela",
         tipo: "Content",

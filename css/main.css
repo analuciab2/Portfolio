@@ -403,13 +403,31 @@ body {
   gap: var(--space-6);
 }
 
+/* Desktop layout: photo on right side */
+@media (min-width: 768px) {
+  .hero__content {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .hero__text-content {
+    flex: 1;
+    max-width: 60%;
+  }
+
+  .hero__photo-container {
+    flex-shrink: 0;
+    margin-left: var(--space-8);
+  }
+}
+
 /* ── Hero profile photo ───────────────────────────────────── */
 .hero__photo-container {
-  width: 200px;
-  height: 200px;
+  width: 432px;
+  height: 432px;
   border-radius: 50%;
   overflow: hidden;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
 }
 
 .hero__profile-photo {
@@ -1410,8 +1428,9 @@ body {
 
   /* Hero profile photo on mobile */
   .hero__photo-container {
-    width: 100px;
-    height: 100px;
+    width: 216px;
+    height: 216px;
+    order: -1; /* Move photo above text on mobile */
   }
 
   /* Hero name on mobile */
