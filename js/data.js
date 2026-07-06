@@ -200,7 +200,7 @@ var PORTFOLIO_DATA = {
         tipo: "Publicidad",
         rol: "Productora Ejecutiva",
         año: "2026",
-        videoUrl: "https://www.youtube.com/embed/gZGDXmbE0Kg",
+        videoUrl: "https://www.youtube.com/embed/uhtIXta9GHU",
         thumbnail: "assets/img/thumbnails/toyota_rav4_hybrid.png",
         descripcion: "Contenido publicitario para Toyota."
       },
@@ -222,7 +222,7 @@ var PORTFOLIO_DATA = {
         tipo: "Publicidad",
         rol: "Productora Ejecutiva",
         año: "2026",
-        videoUrl: "https://www.youtube.com/embed/gUsCZ2Djt46o",
+        videoUrl: "https://www.youtube.com/embed/UsCZ2Djt46o",
         thumbnail: "assets/img/thumbnails/arroz_costeno_extra_anejo.png",
         descripcion: "Campaña de relanzamiento de Arroz Costeño Extra Añejo."
       },
@@ -564,7 +564,7 @@ var PORTFOLIO_DATA = {
         tipo: "Content",
         rol: "Productora Ejecutiva",
         año: "2026",
-        videoUrl: "https://www.youtube.com/embed/gZGDXmbE0Kg",
+        videoUrl: "https://www.youtube.com/embed/uhtIXta9GHU",
         thumbnail: "assets/img/thumbnails/toyota_rav4_hybrid.png",
         descripcion: "Branded Content for Toyota Rav4 Hybrid."
       },
@@ -586,7 +586,7 @@ var PORTFOLIO_DATA = {
         tipo: "Commercial",
         rol: "Productora Ejecutiva",
         año: "2026",
-        videoUrl: "https://www.youtube.com/embed/gUsCZ2Djt46o",
+        videoUrl: "https://www.youtube.com/embed/UsCZ2Djt46o",
         thumbnail: "assets/img/thumbnails/arroz_costeno_extra_anejo.png",
         descripcion: "Relaunch campagin for Arroz Costeño Extra Añejo."
       },
